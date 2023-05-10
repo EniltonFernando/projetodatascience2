@@ -1,0 +1,76 @@
+MIME-Version: 1.0
+Date: Mon, 8 May 2023 22:32:27 -0300
+Message-ID: <CAGLRFhWhK47L_DPF8NgcC2he46aW0=M2rh3t7a1W8i2DcTDMGw@mail.gmail.com>
+Subject: =?UTF-8?Q?pre=C3=A7o_combustivel_algoritmo?=
+From: Fernando Santos <cabala2424@gmail.com>
+To: Fernando Santos <cabala2424@gmail.com>
+Content-Type: multipart/alternative; boundary="0000000000007fe6bc05fb38ba60"
+
+--0000000000007fe6bc05fb38ba60
+Content-Type: text/plain; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+# Leitura do n=C3=BAmero de litros vendidos e tipo de combust=C3=ADvel
+litros_vendidos =3D float(input("Digite o n=C3=BAmero de litros vendidos: "=
+))
+tipo_combustivel =3D input("Digite o tipo de combust=C3=ADvel (A-=C3=A1lcoo=
+l,
+G-gasolina): ")
+
+# Verifica o tipo de combust=C3=ADvel e calcula o valor a ser pago
+if tipo_combustivel =3D=3D 'A' or tipo_combustivel =3D=3D 'a':
+    preco_litro =3D 1.90
+    valor_pago =3D litros_vendidos * preco_litro
+    print(f"Valor a ser pago: R$ {valor_pago:.2f}")
+elif tipo_combustivel =3D=3D 'G' or tipo_combustivel =3D=3D 'g':
+    preco_litro =3D 2.50
+    valor_pago =3D litros_vendidos * preco_litro
+    print(f"Valor a ser pago: R$ {valor_pago:.2f}")
+else:
+    print("Tipo de combust=C3=ADvel inv=C3=A1lido. Digite A para =C3=A1lcoo=
+l ou G para
+gasolina.")
+
+
+
+Escreva um algoritmo em pyhton que leia o n=C3=BAmero de litros vendidos, o=
+ tipo
+de combust=C3=ADvel (codificado da seguinte forma: A-=C3=A1lcool, G-gasolin=
+a),
+calcule e imprima o valor a ser pago pelo cliente sabendo-se que o pre=C3=
+=A7o do
+litro da gasolina =C3=A9 R$ 2,50 o pre=C3=A7o do litro do =C3=A1lcool =C3=
+=A9 R$ 1,90
+
+--0000000000007fe6bc05fb38ba60
+Content-Type: text/html; charset="UTF-8"
+Content-Transfer-Encoding: quoted-printable
+
+<div dir=3D"ltr"># Leitura do n=C3=BAmero de litros vendidos e tipo de comb=
+ust=C3=ADvel<br>litros_vendidos =3D float(input(&quot;Digite o n=C3=BAmero =
+de litros vendidos: &quot;))<br>tipo_combustivel =3D input(&quot;Digite o t=
+ipo de combust=C3=ADvel (A-=C3=A1lcool, G-gasolina): &quot;)<br><br># Verif=
+ica o tipo de combust=C3=ADvel e calcula o valor a ser pago<br>if tipo_comb=
+ustivel =3D=3D &#39;A&#39; or tipo_combustivel =3D=3D &#39;a&#39;:<br>=C2=
+=A0 =C2=A0 preco_litro =3D 1.90<br>=C2=A0 =C2=A0 valor_pago =3D litros_vend=
+idos * preco_litro<br>=C2=A0 =C2=A0 print(f&quot;Valor a ser pago: R$ {valo=
+r_pago:.2f}&quot;)<br>elif tipo_combustivel =3D=3D &#39;G&#39; or tipo_comb=
+ustivel =3D=3D &#39;g&#39;:<br>=C2=A0 =C2=A0 preco_litro =3D 2.50<br>=C2=A0=
+ =C2=A0 valor_pago =3D litros_vendidos * preco_litro<br>=C2=A0 =C2=A0 print=
+(f&quot;Valor a ser pago: R$ {valor_pago:.2f}&quot;)<br>else:<br>=C2=A0 =C2=
+=A0 print(&quot;Tipo de combust=C3=ADvel inv=C3=A1lido. Digite A para =C3=
+=A1lcool ou G para gasolina.&quot;)<br><div><br></div><div><br></div><div><=
+br></div><div><span style=3D"color:rgb(52,53,65);font-family:S=C3=B6hne,ui-=
+sans-serif,system-ui,-apple-system,&quot;Segoe UI&quot;,Roboto,Ubuntu,Canta=
+rell,&quot;Noto Sans&quot;,sans-serif,&quot;Helvetica Neue&quot;,Arial,&quo=
+t;Apple Color Emoji&quot;,&quot;Segoe UI Emoji&quot;,&quot;Segoe UI Symbol&=
+quot;,&quot;Noto Color Emoji&quot;;font-size:16px;white-space:pre-wrap">Esc=
+reva um algoritmo em  pyhton que leia o n=C3=BAmero de litros
+vendidos, o tipo de combust=C3=ADvel (codificado da seguinte forma: A-=C3=
+=A1lcool, G-gasolina), calcule
+e imprima o valor a ser pago pelo cliente sabendo-se que o pre=C3=A7o do li=
+tro da gasolina =C3=A9 R$
+2,50 o pre=C3=A7o do litro do =C3=A1lcool =C3=A9 R$ 1,90</span><br></div></=
+div>
+
+--0000000000007fe6bc05fb38ba60--
